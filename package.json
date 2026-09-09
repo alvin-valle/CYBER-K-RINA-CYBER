@@ -1,0 +1,27 @@
+{
+  "name": "karina-cyber-sistema",
+  "version": "1.0.0",
+  "description": "Sistema Administrativo, Control de Inventario y Gestion de Servicios de Impresion - K@rin@ cyber",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "postinstall": "node src/db/copy-vendor.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

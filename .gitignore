@@ -1,0 +1,11 @@
+node_modules/
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/temp_demo/*
+!data/temp_demo/.gitkeep
+public/vendor/
+.env
+npm-debug.log*
+.DS_Store
